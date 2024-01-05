@@ -1,0 +1,397 @@
+/* .box1{
+    display: inline-flex;
+    border: 2px solid purple;
+    width: 1320px;
+    height: 300px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    display: inline-flex;
+    border: 2px solid purple;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#main{
+    position: inherit;
+    padding-top: 20px;
+}
+
+#subhead{
+    margin-top: 120px;
+    padding-right: 60px;
+} */
+
+.main{
+    max-width: 1500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+#main1::before{
+    box-sizing: inherit;
+}
+#main1::after{
+    box-sizing: inherit;
+}
+
+
+.img1{
+    width: 1500px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    aspect-ratio: auto 1500/600;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    text-align: center !important;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+#im::before{
+    box-sizing: inherit;
+}
+#im::after{
+    box-sizing: inherit;
+}
+
+.content{
+    color: lightgrey;
+    padding: 12px 24px !important;
+    border: 1px solid gray !important;
+    text-align: center !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 4px;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.head1{
+    font-size: 48px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: lightgrey;
+    text-align: center !important;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+#head::before{
+    box-sizing: inherit;
+}
+#head::after{
+    box-sizing: inherit;
+}
+
+.h5{
+    white-space: nowrap;
+    display: none !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    min-width: 993px;
+    font-size: inherit;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: lightgrey;
+    text-align: center !important;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+#subhead::before{
+    box-sizing: inherit;
+}
+#subhead::after{
+    box-sizing: inherit;
+}
+
+.h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: lightgrey !important;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+#subhead2::before{
+    box-sizing: inherit;
+}
+#subhead2::after{
+    box-sizing: inherit;
+}
+
+
+.imgbar{
+    padding: 12px 24px !important;
+    margin-top: 16px !important;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+#imgbar1::before{
+    box-sizing: inherit;
+}
+#imgbar1::after{
+    box-sizing: inherit;
+}
+
+.mountL{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: inherit;
+    width: 1000px;
+    aspect-ratio: auto 1000/500;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+#imgg1::before{
+    box-sizing: inherit;
+}
+#imgg1::after{
+    box-sizing: inherit;
+}
+
+.buildL{
+    margin-top: 16px !important;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: inherit;
+    width: 1000px;
+    aspect-ratio: auto 1000/500;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+#imgg2::before{
+    box-sizing: inherit;
+}
+#imgg2::after{
+    box-sizing: inherit;
+}
+
+.skyL{
+    margin-top: 16px !important;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: inherit;
+    width: 1000px;
+    aspect-ratio: auto 1000/500;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+#imgg3::before{
+    box-sizing: inherit;
+}
+#imgg3::after{
+    box-sizing: inherit;
+}
+/* .titlebar1{
+    bottom: -16px;
+}
+
+.CONTACT{
+    padding: large;
+    margin: top;
+} */
+
+/* #box1{
+    display: flex;
+    height: ;
+    width: ;
+    background-color: rgb(207, 203, 203);
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+}
+
+#box1:hover{
+    background-color: darkslategray;
+}
+
+#box2{
+    display: flex;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(207, 203, 203);
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+}
+
+#box2:hover{
+    background-color: darkslategray;
+} */
+
+.titlebar1{
+    bottom: -16px;
+    display: inline-block;
+    width: auto;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 4px;
+    display: bottommiddle;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    overflow: hidden;
+    box-sizing: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center !important;
+}
+
+
+#bar1::before{
+    box-sizing: inherit;
+}
+
+#bar1::after{
+    box-sizing: inherit;
+}
+
+.h1{
+    white-space: normal;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    cursor: pointer;
+    background-color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#home1::before{
+    box-sizing: inherit;
+}
+
+#home1::after{
+    box-sizing: inherit;
+}
+
+#home1:hover{
+    background-color: darkslategray;
+}
+
+.p1{
+    white-space: normal;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    background-color: inherit;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+#port1::before{
+    box-sizing: inherit;
+}
+#port1::after{
+    box-sizing: inherit;
+}
+
+#port1:hover{
+    background-color: darkslategray;
+}
+
+.c1{
+    white-space: normal;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    background-color: inherit;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#con1::before{
+    box-sizing: inherit;
+}
+#con1::after{
+    box-sizing: inherit;
+}
+
+#con1:hover{
+    background-color: darkslategray;
+}
